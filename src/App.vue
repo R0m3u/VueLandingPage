@@ -22,7 +22,7 @@ export default {
   },
 
   data: () => ({
-    //https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1&t=x6ZKEJ8ICzc94muj-0 => layout reference
+    
   }),
 };
 </script>

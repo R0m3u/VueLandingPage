@@ -1,24 +1,14 @@
 # vue-practice
 
-## Project setup
+## Technologies used
 ```
-npm install
+VuejS | TailwindCss
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+simple page using vue js using the concept of componentization to keep the code cleaner and easier to maintain
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Layout reference
+https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1&t=x6ZKEJ8ICzc94muj-0
