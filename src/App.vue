@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <topMenu/>
+    <mainContainer/>
+    <pageFooter/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import './assets/tailwind.css'
+import topMenu from './components/sections/header/topMenu.vue'
+import mainContainer from './components/sections/main/main.vue'
+import pageFooter from './components/sections/footer/pageFooter.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    topMenu,
+    mainContainer,
+    pageFooter,
+  },
+
+  data: () => ({
+    //https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1&t=x6ZKEJ8ICzc94muj-0 => layout reference
+  }),
+};
+</script>
